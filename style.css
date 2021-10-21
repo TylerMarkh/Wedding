@@ -9,7 +9,7 @@ body{
 text-align:center;
 
 }
-/*removes default margin, padding. Stretches content within the entire viewport*/
+/*Removes default margin, padding. Stretches content within the entire viewport*/
 html, body{
 height:100%;
 width:100%;
@@ -92,7 +92,7 @@ text-align:center;
 
 }
 
-/*Changes font*/
+/*Changes font, adds background image that is centered*/
 .ourstoryheader {
 font-family:'Antic Didone', serif;
 color:white;
@@ -139,16 +139,19 @@ height:50%;
 }
 /*Seprates Our Story from Our Gallery*/
 
+/*Aligns text in the center, sets background color*/
 .ourgallerybody{
 text-align:center;
 background-color:#B2D2A4;
 
 }
+/*Sets font, color, and size*/
 .ourgallery {
 font-family:'Antic Didone', serif;
 color:white;
 font-size:600%;
 }
+/*Creates flexbox, wraps content, aligns in the center horizontally and vertically, creates gap*/
 .gallery {
 display:flex;
 flex-wrap:wrap;
@@ -159,6 +162,7 @@ gap:10%;
 
 }
 
+/*Gives width and height, creates margin between photos*/
 .galleryimage {
 width:100%;
 height:auto;
@@ -167,24 +171,26 @@ margin-top:5%;
 }
 /*This seperates Wedding Party from When & Where*/
 
+/*Sets background color*/
 .whenwherebody{
 background-color:#B2D2A4;
 
 
 }
-
+/*Changes font size, color, and family*/
 .WhenWhere {
 font-family:'Antic Didone', serif;
 color:white;
 font-size:400%;
 
-
 }
 
+/*Creates photo width and height*/
 .nazarethhall{
 width:100%;
 height:auto;
 }
+/*Creates flexbox, margin, color, font family, and width and height*/
 .h2{
 display:flex;
 margin-left:5%;
@@ -195,11 +201,12 @@ font-size:300%;
 width:100%;
 height:auto;
 }
-
+/*Adds bottom border*/
 .where{
 border-bottom-style:solid;
 
 }
+/*Creates flexbox, font size, font color, creates margin*/
 .address {
 display:flex;
 font-size:150%;
@@ -207,6 +214,7 @@ color:white;
 margin-top:0%;
 margin-left:5%;
 }
+/*Creates flexbox, margin, color, font family and size, width and height*/
 .h3{
     display:flex;
     margin-left:5%;
@@ -218,13 +226,14 @@ margin-left:5%;
     height:auto;
 
 }
+/*Creates bottom border*/
 .when{
     border-bottom-style:solid;
 
 
 
 }
-
+/*Creates flexbox, font size, font color, margin on left and bottom*/
 .dateandtime{
     display:flex;
     font-size:150%;
@@ -233,7 +242,7 @@ margin-left:5%;
     margin-bottom:5%;
 
 }
-
+/*Changes font size in regards to a screen with a width of 1200px or more*/
 @media screen and (min-width:1200px) {
 
     .dateandtime{
@@ -245,11 +254,13 @@ margin-left:5%;
     }
 }
 /*Seperates When & Where from Registry*/
-.registrybody{
+./*Sets background color*/
+registrybody{
 background-color:#B2D2A4;
 
 
 }
+/*Creates font family, color, and size*/
 .registry {
 font-family:'Antic Didone', serif;
 color:white;
@@ -257,7 +268,7 @@ font-size:400%;
 
 
 }
-
+/*Adding registry in next couple months*/
 .comingsoon {
 color:white;
 
