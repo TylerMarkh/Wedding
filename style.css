@@ -1,0 +1,264 @@
+/*Aligns all text in the center, positions background image*/
+* {
+box-sizing:border-box;
+
+
+}
+/*Aligns all text in the center*/
+body{
+text-align:center;
+
+}
+/*removes default margin, padding. Stretches content within the entire viewport*/
+html, body{
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+
+}
+/*Creates background color, and background image*/
+.indexbody{
+background-color:#B2D2A4;
+text-align:center;
+background-image:url("../Wedding/images/DSC_3729.jpg");
+background-repeat:no-repeat;
+background-position:center bottom;
+background-size:cover;
+
+
+}
+/*Removes bullets from list, creates flexbox to align items correctly*/
+.Navigation {
+list-style:none;
+font-family:'italianno';
+font-weight:bold;
+display:flex;
+align-content:center;
+justify-content:center;
+margin-bottom:0%;
+gap:7%;
+font-size:75%;
+margin-top:0%;
+
+}
+/*Removes underline of links and changes color to white.*/
+a {
+text-decoration:none;
+color:white;
+border:#B2D2A4;
+border-bottom-style: solid;
+
+}
+/*Changes color to white, changes font family and size*/
+.WeddingCelebration {
+    color:white;
+    font-family:'Antic Didone', serif;
+    font-size:250%;
+    font-weight:bold;
+
+
+
+}
+/*Changes font size, color, and family*/
+.TylerChloe {
+color:white;
+font-family:'Antic Didone', serif;
+font-size:200%;
+}
+/*Used to change font sizes from each device*/
+@media screen and (min-width:1025px) {
+    .WeddingCelebration {
+        color:white;
+        font-size:600%;
+        font-weight:bold;}
+    
+        .TylerChloe {
+            color:white;
+            font-size:400%;
+            }
+            .Navigation {
+                font-size:250%
+            }
+
+}
+
+/*This seperates index.html from ourstory.html*/
+/*Creates a background color, aligns text in the center*/
+.ourstorybody{
+background-color:#B2D2A4;
+text-align:center;
+
+
+}
+
+/*Changes font*/
+.ourstoryheader {
+font-family:'Antic Didone', serif;
+color:white;
+font-size:600%;
+background-image:url(../Wedding/images/DSC_6044.jpg);
+background-repeat:no-repeat;
+background-position:center bottom;
+background-size:cover;
+width:auto;
+height:50%;
+
+
+
+}
+/*Adds border styling, creates flexbox and adds padding*/
+.content {
+    display:flex;
+    flex-wrap:wrap;
+    font-size:120%;
+    background-color:#000040;
+    border-style:solid;
+    border-width:content;
+    border-color:white;
+    border-radius:5%;
+    color:white;
+    padding:5%;
+
+
+}
+/*Changes font size for different media*/
+@media screen and (min-width:1025px) {
+
+    .content{
+        font-size:200%;
+
+    }
+}   
+@media screen and (min-width:2365px) {
+    .ourstoryheader {
+        background-size:auto;
+
+
+    }
+}
+/*Seprates Our Story from Our Gallery*/
+
+.ourgallerybody{
+text-align:center;
+background-color:#B2D2A4;
+
+}
+.ourgallery {
+font-family:'Antic Didone', serif;
+color:white;
+font-size:600%;
+}
+.gallery {
+display:flex;
+flex-wrap:wrap;
+align-content:center;
+justify-content:center;
+gap:10%;
+
+
+}
+
+.galleryimage {
+width:100%;
+height:auto;
+margin-top:5%;
+
+}
+/*This seperates Wedding Party from When & Where*/
+
+.whenwherebody{
+background-color:#B2D2A4;
+
+
+}
+
+.WhenWhere {
+font-family:'Antic Didone', serif;
+color:white;
+font-size:400%;
+
+
+}
+
+.nazarethhall{
+width:100%;
+height:auto;
+}
+.h2{
+display:flex;
+margin-left:5%;
+margin-bottom:0%;
+color:white;
+font-family:'Antic Didone', serif;
+font-size:300%;
+width:100%;
+height:auto;
+}
+
+.where{
+border-bottom-style:solid;
+
+}
+.address {
+display:flex;
+font-size:150%;
+color:white;
+margin-top:0%;
+margin-left:5%;
+}
+.h3{
+    display:flex;
+    margin-left:5%;
+    margin-bottom:0%;
+    color:white;
+    font-family:'Antic Didone', serif;
+    font-size:400%;
+    width:100%;
+    height:auto;
+
+}
+.when{
+    border-bottom-style:solid;
+
+
+
+}
+
+.dateandtime{
+    display:flex;
+    font-size:150%;
+    color:white;
+    margin-left:5%;
+    margin-bottom:5%;
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .dateandtime{
+        font-size:250%;
+
+    }
+    .address{
+        font-size:250%;
+    }
+}
+/*Seperates When & Where from Registry*/
+.registrybody{
+background-color:#B2D2A4;
+
+
+}
+.registry {
+font-family:'Antic Didone', serif;
+color:white;
+font-size:400%;
+
+
+}
+
+.comingsoon {
+color:white;
+
+}
