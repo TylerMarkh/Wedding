@@ -206,6 +206,13 @@ height:auto;
 border-bottom-style:solid;
 
 }
+.hotelBlock{
+    font-size:120%;
+    font-weight:bold;
+    display:flex;
+    margin-left:5%;
+}
+
 /*Creates flexbox, font size, font color, creates margin*/
 .address {
 display:flex;
@@ -213,7 +220,11 @@ font-size:150%;
 color:white;
 margin-top:0%;
 margin-left:5%;
+margin-bottom:5%;
+align-content: flex-start;
 }
+
+
 /*Creates flexbox, margin, color, font family and size, width and height*/
 .h3{
     display:flex;
@@ -251,6 +262,9 @@ margin-left:5%;
     }
     .address{
         font-size:250%;
+    }
+    .hotelBlock {
+        font-size:300%;
     }
 }
 /*Seperates When & Where from Registry*/
